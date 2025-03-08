@@ -1,0 +1,20 @@
+.title {
+   font-family: "Rubik";
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 126%;
+   color: #000;
+   @media (max-width: #{media3}px) {
+      font-size: 24px;
+      line-height: 36px;
+   }
+}
+
+.text {
+   font-family: "Rubik";
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 138%;
+   letter-spacing: 0.08em;
+   color: #616161;
+}
